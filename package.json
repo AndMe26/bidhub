@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "test": "tsx --test test/business-rules.test.ts",
     "db:seed": "prisma db seed"
   },
   "dependencies": {
@@ -30,6 +31,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
     "prisma": "^7.10.1",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }
