@@ -155,5 +155,6 @@ bidhub/
 
 ## 9. Despliegue en Producción
 
+- **URL de la aplicación en Vercel:** [https://bidhub-ksomhye5m-n-5937.vercel.app](https://bidhub-ksomhye5m-n-5937.vercel.app)
 - **Base de Datos:** PostgreSQL en Supabase.
-- **Frontend y Backend:** Next.js desplegado en Vercel con integración continua y variables de entorno configuradas (`DATABASE_URL`, `DIRECT_URL`, `JWT_ACCESS_SECRET`, `JWT_REFRESH_SECRET`).
+- **Frontend y Backend:** Next.js 16 desplegado en Vercel con integración continua y variables de entorno configuradas (`DATABASE_URL`, `DIRECT_URL`, `JWT_ACCESS_SECRET`, `JWT_REFRESH_SECRET`).
