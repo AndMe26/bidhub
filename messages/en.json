@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "brand": "BidHub",
+    "auctions": "Auctions",
+    "publish": "Publish",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "login": "Sign In",
+    "register": "Sign Up",
+    "logout": "Log Out"
+  },
+  "home": {
+    "badge": "Exclusive live auctions",
+    "title": "The ultimate platform for collectors",
+    "subtitle": "Discover, auction and bid on rare cards, luxury watches, historical vinyl and limited edition figures with full security and transparency.",
+    "explore": "Explore catalog",
+    "publish": "Publish item",
+    "features": {
+      "realtime": "Real-time Statuses",
+      "realtimeDesc": "Dynamic and accurate close states without delays or external workers.",
+      "security": "Protected Bids",
+      "securityDesc": "Atomic transactions and anti-sniping protection with 5-minute extensions.",
+      "privacy": "Total Privacy",
+      "privacyDesc": "Public bidder history is 100% anonymized."
+    }
+  },
+  "auctions": {
+    "title": "Auctions Catalog",
+    "subtitle": "Find unique collectibles ready for your bid.",
+    "filterCategory": "All categories",
+    "filterStatus": "All statuses",
+    "status": {
+      "ACTIVE": "Active",
+      "CLOSED": "Closed",
+      "DESERTED": "Deserted",
+      "CANCELLED": "Cancelled"
+    },
+    "currentPrice": "Current price",
+    "initialPrice": "Initial price",
+    "minIncrement": "Min. increment",
+    "bidsCount": "bids",
+    "viewDetails": "View details",
+    "noAuctions": "No auctions match the selected filters."
+  },
+  "detail": {
+    "seller": "Seller",
+    "closesIn": "Time left",
+    "closedAt": "Closed at",
+    "history": "Bidding history",
+    "noBids": "No bids placed yet for this item.",
+    "placeBid": "Place a bid",
+    "bidAmount": "Your bid amount (USD)",
+    "bidButton": "Confirm bid",
+    "minBidWarning": "Your bid must be greater than current price plus minimum increment.",
+    "ownAuctionWarning": "You cannot bid on your own auction.",
+    "inactiveWarning": "This auction is no longer accepting bids.",
+    "highestBidderWarning": "You are currently the highest bidder!"
+  },
+  "dashboard": {
+    "title": "My Dashboard",
+    "myAuctions": "My Published Auctions",
+    "myBids": "My Placed Bids",
+    "noMyAuctions": "You haven't published any auctions yet.",
+    "noMyBids": "You haven't placed any bids yet.",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "cancelConfirm": "Are you sure you want to cancel this auction?",
+    "winning": "Leading",
+    "won": "Winner!"
+  },
+  "publish": {
+    "title": "Publish New Auction",
+    "editTitle": "Edit Auction",
+    "titleLabel": "Item Title",
+    "descriptionLabel": "Detailed Description",
+    "imageUrlLabel": "Image URL",
+    "categoryLabel": "Category",
+    "initialPriceLabel": "Initial Price (USD)",
+    "minIncrementLabel": "Minimum Increment (USD)",
+    "closesAtLabel": "Close Date & Time (1h to 7 days)",
+    "submit": "Publish Auction",
+    "submitEdit": "Save Changes",
+    "cancel": "Back"
+  },
+  "admin": {
+    "title": "Administration Panel",
+    "categories": "Category Management",
+    "newCategory": "New category",
+    "categoryName": "Name",
+    "categorySlug": "Slug (optional)",
+    "create": "Create",
+    "delete": "Delete",
+    "moderation": "Active Auctions Moderation",
+    "cancelReason": "Cancellation reason (required)",
+    "moderateCancel": "Cancel auction for moderation"
+  },
+  "auth": {
+    "loginTitle": "Welcome to BidHub",
+    "loginSubtitle": "Sign in to bid and publish collectibles",
+    "registerTitle": "Create Account",
+    "registerSubtitle": "Join the premier collector community",
+    "name": "Full name",
+    "email": "Email address",
+    "password": "Password",
+    "submitLogin": "Sign In",
+    "submitRegister": "Sign Up",
+    "hasAccount": "Already have an account? Sign in here",
+    "noAccount": "Don't have an account? Sign up here"
+  }
+}

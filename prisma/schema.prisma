@@ -1,0 +1,67 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+model User {
+  id               String    @id @default(cuid())
+  name             String
+  email            String    @unique
+  passwordHash     String
+  role             Role      @default(USER)
+  refreshTokenHash String?
+  createdAt        DateTime  @default(now())
+  auctions         Auction[]
+  bids             Bid[]
+}
+
+model Category {
+  id       String    @id @default(cuid())
+  name     String
+  slug     String    @unique
+  auctions Auction[]
+}
+
+model Auction {
+  id           String   @id @default(cuid())
+  title        String
+  description  String
+  imageUrl     String
+  initialPrice Decimal  @db.Decimal(12, 2)
+  minIncrement Decimal  @db.Decimal(12, 2)
+  createdAt    DateTime @default(now())
+  closesAt     DateTime
+  isCancelled  Boolean  @default(false)
+  cancelReason String?
+  sellerId     String
+  categoryId   String
+  seller       User     @relation(fields: [sellerId], references: [id])
+  category     Category @relation(fields: [categoryId], references: [id])
+  bids         Bid[]
+
+  @@index([sellerId])
+  @@index([categoryId])
+  @@index([closesAt])
+}
+
+model Bid {
+  id        String   @id @default(cuid())
+  amount    Decimal  @db.Decimal(12, 2)
+  createdAt DateTime @default(now())
+  auctionId String
+  bidderId  String
+  auction   Auction  @relation(fields: [auctionId], references: [id])
+  bidder    User     @relation(fields: [bidderId], references: [id])
+
+  @@index([auctionId, amount])
+  @@index([bidderId])
+}

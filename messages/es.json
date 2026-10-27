@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "brand": "BidHub",
+    "auctions": "Subastas",
+    "publish": "Publicar",
+    "dashboard": "Mi Panel",
+    "admin": "Admin",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar Sesión"
+  },
+  "home": {
+    "badge": "Subastas exclusivas en vivo",
+    "title": "La plataforma definitiva para coleccionistas",
+    "subtitle": "Descubre, subasta y puja por cartas raras, relojes de lujo, vinilos históricos y figuras de edición limitada con total seguridad y transparencia.",
+    "explore": "Explorar catálogo",
+    "publish": "Publicar artículo",
+    "features": {
+      "realtime": "Estados en Tiempo Real",
+      "realtimeDesc": "Cierre exacto y dinámico sin intermediarios ni demoras.",
+      "security": "Pujas Protegidas",
+      "securityDesc": "Transacciones atómicas y protección anti-sniping con prórroga de 5 min.",
+      "privacy": "Privacidad Total",
+      "privacyDesc": "Historial público de postores 100% anonimizado."
+    }
+  },
+  "auctions": {
+    "title": "Catálogo de Subastas",
+    "subtitle": "Encuentra piezas únicas listas para recibir tu oferta.",
+    "filterCategory": "Todas las categorías",
+    "filterStatus": "Todos los estados",
+    "status": {
+      "ACTIVE": "Activa",
+      "CLOSED": "Cerrada",
+      "DESERTED": "Desierta",
+      "CANCELLED": "Cancelada"
+    },
+    "currentPrice": "Precio actual",
+    "initialPrice": "Precio inicial",
+    "minIncrement": "Incremento mín.",
+    "bidsCount": "ofertas",
+    "viewDetails": "Ver detalle",
+    "noAuctions": "No se encontraron subastas con los filtros seleccionados."
+  },
+  "detail": {
+    "seller": "Vendedor",
+    "closesIn": "Tiempo restante",
+    "closedAt": "Cierre",
+    "history": "Historial de ofertas",
+    "noBids": "Aún no hay ofertas para este artículo.",
+    "placeBid": "Realizar oferta",
+    "bidAmount": "Monto de tu puja (USD)",
+    "bidButton": "Confirmar puja",
+    "minBidWarning": "Tu oferta debe superar el monto actual más el incremento.",
+    "ownAuctionWarning": "No puedes ofertar en tu propia subasta.",
+    "inactiveWarning": "Esta subasta ya no admite nuevas ofertas.",
+    "highestBidderWarning": "¡Ya eres el postor con la oferta más alta!"
+  },
+  "dashboard": {
+    "title": "Mi Panel de Control",
+    "myAuctions": "Mis Subastas Publicadas",
+    "myBids": "Mis Ofertas Realizadas",
+    "noMyAuctions": "Aún no has publicado ninguna subasta.",
+    "noMyBids": "Aún no has realizado ninguna oferta.",
+    "edit": "Editar",
+    "cancel": "Cancelar",
+    "cancelConfirm": "¿Estás seguro de cancelar esta subasta?",
+    "winning": "Liderando",
+    "won": "¡Ganador!"
+  },
+  "publish": {
+    "title": "Publicar Nueva Subasta",
+    "editTitle": "Editar Subasta",
+    "titleLabel": "Título del artículo",
+    "descriptionLabel": "Descripción detallada",
+    "imageUrlLabel": "URL de la imagen",
+    "categoryLabel": "Categoría",
+    "initialPriceLabel": "Precio inicial (USD)",
+    "minIncrementLabel": "Incremento mínimo (USD)",
+    "closesAtLabel": "Fecha y hora de cierre (1h a 7 días)",
+    "submit": "Publicar subasta",
+    "submitEdit": "Guardar cambios",
+    "cancel": "Volver"
+  },
+  "admin": {
+    "title": "Panel de Administración",
+    "categories": "Gestión de Categorías",
+    "newCategory": "Nueva categoría",
+    "categoryName": "Nombre",
+    "categorySlug": "Slug (opcional)",
+    "create": "Crear",
+    "delete": "Eliminar",
+    "moderation": "Moderación de Subastas Activas",
+    "cancelReason": "Motivo de cancelación (obligatorio)",
+    "moderateCancel": "Cancelar subasta por moderación"
+  },
+  "auth": {
+    "loginTitle": "Bienvenido a BidHub",
+    "loginSubtitle": "Ingresa a tu cuenta para ofertar y publicar",
+    "registerTitle": "Crear Cuenta",
+    "registerSubtitle": "Únete a la mayor comunidad de coleccionistas",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submitLogin": "Iniciar Sesión",
+    "submitRegister": "Registrarse",
+    "hasAccount": "¿Ya tienes cuenta? Inicia sesión aquí",
+    "noAccount": "¿Aún no tienes cuenta? Regístrate aquí"
+  }
+}
